@@ -15,7 +15,7 @@ elif d ==0:
 
 else:
     y = (-b+math.sqrt(d))/(2*a)
-    z = (-b+math.sqrt(d))/(2*a)
+    z = (-b-math.sqrt(d))/(2*a)
     print ('该方程有两个不同解！')
     print (y)
     print(z)
